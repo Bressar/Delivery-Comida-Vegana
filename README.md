@@ -23,7 +23,7 @@ Sistema de Pedidos
 - OrderSttus
     name (REALIZADO, EM PREPARAÇÂO, ENVIADO, ENTREGUE, FINALIZADO)
 
-- OrderItem // objeto de valor -> imutável
+- OrderItem // objeto de valor
     - product_id
     - price
     - quantity
