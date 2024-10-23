@@ -1,5 +1,6 @@
 # Delivery-Comida-Vegana
- Sistema da  Loja Virtual - Comida Vegana Sim!
+Sistema de pedidos usando POO, DDD e TDD em Python.
+Loja Virtual - Comida Vegana Sim! -> in PROGRESS!!
 
 
 Estrutura
