@@ -8,4 +8,5 @@ from pydantic import BaseModel, Field
 from datetime import datetime
 
 class DomainBase(BaseModel): # cria um Id e uma date time toda vez que a classe for instanciada
-    pass
+    id: UUID = Field(default=uuid4())
+    create_at: datetime = Field(default_factory=datetime.now)

@@ -1,6 +1,6 @@
-from pydantic import BaseModel
+from src.domain.base import DomainBase
 
-class Product(BaseModel):
+class Product(DomainBase):
     name: str
     description: str
     price: float

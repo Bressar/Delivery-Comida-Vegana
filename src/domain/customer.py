@@ -1,5 +1,5 @@
-from pydantic import BaseModel
+from src.domain.base import DomainBase
 
-class Customer(BaseModel):
+class Customer(DomainBase):
     name: str
     email: str
